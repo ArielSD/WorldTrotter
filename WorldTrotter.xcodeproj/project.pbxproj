@@ -15,6 +15,7 @@
 		B01E44FD1F900C34004600E2 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E44FC1F900C34004600E2 /* WorldTrotterUITests.swift */; };
 		B076DB971F926A90005163C2 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076DB961F926A90005163C2 /* ConversionViewController.swift */; };
 		B076DB9A1F940A2D005163C2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B076DB991F940A2D005163C2 /* MapKit.framework */; };
+		B076DB9C1F94148E005163C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076DB9B1F94148E005163C2 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B01E44FE1F900C34004600E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B076DB961F926A90005163C2 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		B076DB991F940A2D005163C2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B076DB9B1F94148E005163C2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				B01E44DC1F900C34004600E2 /* AppDelegate.swift */,
 				B076DB961F926A90005163C2 /* ConversionViewController.swift */,
+				B076DB9B1F94148E005163C2 /* MapViewController.swift */,
 				B01E44E01F900C34004600E2 /* Main.storyboard */,
 				B01E44E31F900C34004600E2 /* Assets.xcassets */,
 				B01E44E51F900C34004600E2 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B076DB971F926A90005163C2 /* ConversionViewController.swift in Sources */,
+				B076DB9C1F94148E005163C2 /* MapViewController.swift in Sources */,
 				B01E44DD1F900C34004600E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
