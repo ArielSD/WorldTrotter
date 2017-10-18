@@ -89,7 +89,17 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="876" y="777"/>
+            <point key="canvasLocation" x="527" y="802"/>
+        </scene>
+        <!--WebView-->
+        <scene sceneID="tCQ-nH-Ni3">
+            <objects>
+                <viewController id="kIc-rM-Gul" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="WebView" id="VQ3-yO-kRJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oO0-Xb-O5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1252" y="802"/>
         </scene>
         <!--Map-->
         <scene sceneID="3Cr-0y-EzV">
@@ -114,6 +124,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Vwf-CK-UN6"/>
                         <segue destination="hbX-EC-7sl" kind="relationship" relationship="viewControllers" id="680-P1-CIK"/>
+                        <segue destination="kIc-rM-Gul" kind="relationship" relationship="viewControllers" id="Up7-Vr-V1e"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cu2-Ps-CF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
